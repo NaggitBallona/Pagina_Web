@@ -60,12 +60,12 @@ body {
     padding: 10px 20px;/* para el tamaño externo del boton*/
     background-color: rgb(96, 3, 3);
     text-decoration: none;
-}
+}/*
 .container1_NO:hover {
     background-color: transparent; 
     border: 2px solid rgb(96, 3, 3);
     color: rgb(96, 3, 3);
-}
+}*/
 .container1__img {
     
     width: 450px;
@@ -95,8 +95,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-
+    padding: 20px;  
 }  
 a{
     text-decoration: none;
