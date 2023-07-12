@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Pagina</title>
+  <link rel="stylesheet" href="styles.css">    
+  <script src="https://kit.fontawesome.com/87f1928039.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+  <!-- Contenido -->
+  <div id="content" class="container" style="margin-top: 120px;">
+    <div id="home">
+      <h1 class="container1">♥ Aceptas ser mi novia de nuevo ♥</h1>
+      <img src="Imagenes/Principal5.jpeg" class="container1__img" alt="">
+      <br>
+      <button class="container1_YES" onclick="Acepto()">🥰 Sipi 🥰</button> 
+      <button class="container1_NO" id="no">😭No, porque no me caes😭</button>
+    </div>
+  </div>
+
+  <div id="contact" style="display: none;">
+    <div class="text-center"> <!-- Contenedor centrado -->
+      <h1 > Sabia que me escogerias a la Primera 😘😏😘 </h1> 
+      <h3 > (para nada intentaste darle al no 😶‍🌫️) </h3> 
+    </div>
+    <div id="conteItemCarrusel">
+      <div class="itemCarrusel" id="itemCarrusel-1"> 
+
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-1" ><img src="Imagenes/Principal18.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-17"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-2"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-2">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal10.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-1"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-3"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-3">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-3"><img src="Imagenes/Principal11.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-2"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-4"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-4">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-1"><img src="Imagenes/Principal17.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-3"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-5"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-5">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal16.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-4"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-6"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-6">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-3"><img src="Imagenes/Principal15.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-5"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-7"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-7">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-1"><img src="Imagenes/Principal4.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-6"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-8"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-8">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal13.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-7"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-9"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-9">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-3"><img src="Imagenes/Principal12.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-8"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-10"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-10">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-1"><img src="Imagenes/Principal9.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-9"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-11"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-11">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal7.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-10"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-12"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-12">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-3"><img src="Imagenes/Principal8.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-11"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-13"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-13">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-1"><img src="Imagenes/Principal6.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-12"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-14"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="itemCarrusel-14">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal4.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-13"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-15"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div> 
+      <div class="itemCarrusel" id="itemCarrusel-15">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal3.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-14"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-16"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div> 
+      <div class="itemCarrusel" id="itemCarrusel-16">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal2.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-15"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-17"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div> 
+      <div class="itemCarrusel" id="itemCarrusel-17">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Principal1.jpeg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-16"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-18"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div> 
+      <div class="itemCarrusel" id="itemCarrusel-18">
+        <div class="TarjetaCarrusel" id="TarjetaCarrusel-2"><img src="Imagenes/Final.jpg" alt=""></div>
+        <div class="FlechaCarrusel">
+          <a href="#itemCarrusel-17"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+          <a href="#itemCarrusel-1"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div> 
+    </div>
+    <div id="contePuntos">
+      <a href="#itemCarrusel-1">▢</a>
+      <a href="#itemCarrusel-2">▢</a>
+      <a href="#itemCarrusel-3">▢</a>
+      <a href="#itemCarrusel-4">▢</a>
+      <a href="#itemCarrusel-5">▢</a>
+      <a href="#itemCarrusel-6">▢</a> 
+      <a href="#itemCarrusel-7">▢</a>
+      <a href="#itemCarrusel-8">▢</a>
+      <a href="#itemCarrusel-9">▢</a> 
+      <a href="#itemCarrusel-10">▢</a>
+      <a href="#itemCarrusel-11">▢</a>
+      <a href="#itemCarrusel-12">▢</a> 
+      <a href="#itemCarrusel-13">▢</a>
+      <a href="#itemCarrusel-14">▢</a>  
+      <a href="#itemCarrusel-15">▢</a>  
+      <a href="#itemCarrusel-16">▢</a>  
+      <a href="#itemCarrusel-17">▢</a> 
+      <a href="#itemCarrusel-18">▢</a>  
+    </div>     
+  </div>
+
+  <script>
+    const vuttonNo = document.getElementById('no');
+
+    const NoAcepto = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    function Acepto() {
+      loadContent('contact');
+    }
+
+    vuttonNo.addEventListener('click', NoAcepto);
+
+    function loadContent(page) {
+      // Ocultar todas las secciones
+      var sections = document.getElementById('content').children;
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].style.display = 'none';
+      }
+      // Mostrar la sección solicitada
+      document.getElementById(page).style.display = 'block';
+    }
+    // Cargar el contenido de la página de inicio al cargar la aplicación
+    window.addEventListener('load', function() {
+      loadContent('home');
+    });
+  </script>
+</body>
+</html>

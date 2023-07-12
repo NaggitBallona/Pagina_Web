@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;600;900&display=swap');
+
+
+body { 
+    
+    background-image: url(Imagenes/Fondo.png);
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se está cargando la imagende fondo o si hay problemas para cargarla */ 
+}
+.container {
+    text-align: center; 
+}
+.container1 {
+     
+    color: rgb(96, 3, 3);
+}
+.container1_YES {
+    color: rgb(250, 250, 250);
+    border-radius: 10px ;
+    margin: 150px 130px;
+    padding: 15px 30px;/* para el tamaño externo del boton*/
+    background-color: rgb(96, 3, 3);
+    text-decoration: none;
+}
+.container1_YES:hover {
+    background-color: transparent; 
+    border: 2px solid rgb(96, 3, 3);
+    color: rgb(96, 3, 3);
+}
+.container1_NO {
+    color: rgb(250, 250, 250);
+    border-radius: 10px ;
+    margin: 150px 130px;
+    padding: 15px 30px;/* para el tamaño externo del boton*/
+    background-color: rgb(96, 3, 3);
+    text-decoration: none;
+}
+.container1_NO:hover {
+    background-color: transparent; 
+    border: 2px solid rgb(96, 3, 3);
+    color: rgb(96, 3, 3);
+}
+.container1__img {
+    
+    width: 450px;
+    height: 780px;
+    max-width: 512px;
+    border-radius: 40%;  
+}
+#conteItemCarrusel { 
+    height: 100vh;
+    overflow: hidden; 
+}
+.itemCarrusel { 
+    height: 100%;
+    position: relative;
+}   
+.TarjetaCarrusel{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FlechaCarrusel{ 
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}  
+a{
+    text-decoration: none;
+}
+i{
+    color: white;
+}
+#contePuntos{
+    display: flex;
+    justify-content: space-around;
+}
+#contePuntos >a {
+    font-size: 1.5em;
+    font-style: none;
+    color: rgb(251, 251, 251);
+}
+img{
+    /*899     1599*/
+    width: 450px;
+    height: 780px;
+    border: 5px solid white;
+
+} 
+.hidden {
+    display: none;
+}
